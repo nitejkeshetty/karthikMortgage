@@ -1,0 +1,46 @@
+.customRounded {
+    border-radius: 0rem;
+    /* No rounding by default */
+}
+
+@media (min-width: 992px) {
+
+    /* Large screens and above */
+    .customRounded {
+        border-end-end-radius: 5%;
+        border-top-right-radius: 5%;
+        /* Rounded corners */
+    }
+}
+
+.customBtn {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.customBtn:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+* {
+
+    font-family: "Signika Negative", serif;
+}
+
+.customImage {
+    transition: all 1.5s ease-in-out;
+}
+
+.customImage:hover {
+    transform: translate(-10px, -40px);
+}
+
+.customHr {
+    max-width: 8rem;
+    margin: .75rem auto;
+    border-color: #f3edef;
+}
